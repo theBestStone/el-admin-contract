@@ -1,0 +1,44 @@
+
+    [class*=" el-icon-lx"], [class^=el-icon-lx] {
+        font-family: lx-iconfont!important;
+    }
+    @font-face {
+        font-family: "element-icons"; /* Project id 2824668 */
+        src: url('iconfont.woff2?t=1632206665955') format('woff2'),
+             url('iconfont.woff?t=1632206665955') format('woff'),
+             url('iconfont.ttf?t=1632206665955') format('truetype');
+      }
+      
+      .element-icons {
+        font-family: "element-icons" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .el-icon-anysign-pingmugongxiang:before {
+        content: "\e746";
+      }
+      
+      .el-icon-anysign-yinlianglabashengyin:before {
+        content: "\e604";
+      }
+      
+      .el-icon-anysign-mic-off-full:before {
+        content: "\e96c";
+      }
+      
+      .el-icon-anysign-a-ziyuan103:before {
+        content: "\e61a";
+      }
+      
+      .el-icon-anysign-shipin:before {
+        content: "\e64f";
+      }
+      
+      .el-icon-anysign-yuyin:before {
+        content: "\e651";
+      }
+      
+      

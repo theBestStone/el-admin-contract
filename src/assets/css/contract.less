@@ -1,0 +1,672 @@
+@blue : #1257ff;
+.el-table__header {
+    margin-bottom: 10px;
+}
+// .signPdfList {
+//     display: flex;
+//     flex-flow: wrap;
+//     justify-content: space-between;
+//     // padding-right: 5%;
+// }
+.add-SignUser-button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px dashed @blue;
+    border-radius: 1px;
+    font-size: 14px;
+    color: @blue;
+    display: inline-block;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.add-enclosure {
+    // display: flex;
+    // align-items: center;
+    // justify-content: flex-start;
+    margin-top: 16px;
+}
+.add-cs {
+    // display: inline-block;
+
+    border-radius: 2px;
+    // width: 118px;
+    // height: 30px;
+    // line-height: 30px;
+    // text-align: center;
+    cursor: pointer;
+    flex: 1;
+    .addchao {
+        height: 30px;
+        line-height: 30px;
+        width: 118px;
+        display: inline-block;
+    
+        border: 1px solid rgba(232, 232, 232, 1);
+        text-align: center;
+    }
+}
+.el-input-style {
+    width: 200px;
+}
+// .el-table tr {
+//     background: #f4f6fa;
+//     // height: 75px;
+// }
+.add-SignUser-button2 {
+    background: rgba(18, 87, 255, 0.05);
+    border-radius: 1px;
+    font-size: 14px;
+    color: @blue;
+    display: inline-block;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.signPdf {
+    width: 520px;
+    height: 76px;
+    background: #fafbfd;
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 2px;
+}
+// .el-radio {
+//     border: 1px solid @blue;
+//     border-radius: 2px;
+//     width: 120px;
+//     height: 30px;
+//     padding: 8px;
+//     box-sizing: border-box;
+// }
+.el-upload {
+    width: 100%;
+    height: 100%;
+}
+.upload-demo {
+    height: 100%;
+}
+.el-upload-dragger {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(18, 87, 255, 0.05);
+    border: 1px dashed @blue;
+    border-radius: 2px;
+}
+
+.tmy {
+    height: 40px;
+    line-height: 40px;
+}
+.delcon {
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -28px;
+}
+.delcon2 {
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -67px;
+    right: 15px;
+}
+.delcon:hover,
+.delcon2:hover {
+    color: red;
+}
+.upbtn {
+    padding: 9px 30px;
+    border: 1px dashed #ccc;
+}
+.delbtn {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    color: #ccc;
+    cursor: pointer;
+}
+.delbtn:hover {
+    color: red;
+}
+.dags {
+    cursor: move;
+}
+.card-foot {
+    margin-bottom: 75px;
+}
+.select-left {
+    display: inline-block;
+    width: 110px;
+}
+.verify-table{
+  .el-form-item--small.el-form-item{
+    margin-bottom: 18px !important;
+    margin-top: 18px !important;
+  }
+  .el-select{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+  .el-table__row{
+    .cell{
+      
+    }
+    td{
+      padding:0;
+    }
+    // height:65px;
+  }
+}
+.send2-table{
+  .el-table__header{
+    display:none;
+  }
+}
+.signPdfList{
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    // padding-right: 5%;
+    .signPdf{
+        margin:10px 10px 0 0 ;
+        width:520px;
+        background: #FAFBFD;
+        border: 1px solid rgba(232,232,232,1);
+        border-radius: 2px;
+        
+        .up-left{
+            width:80px;
+            line-height: 76px;
+            text-align: center;
+        }
+        .up-center{
+            flex:1;
+            align-items: center;
+            .up-title{
+                margin:16px 0 6px;
+            }
+            .up-detaile{
+               font-size:12px;
+               color:#A6A6A6
+            }
+        }
+        .up-right{
+            width:100px;
+            font-size:20px;
+            line-height: 76px;
+            text-align: center;
+            i{
+                margin:0 4px;
+                cursor: pointer;
+            }
+        }
+    }
+    .signPdffu{
+        width:500px;
+    }
+}
+.contract-title{
+    color: @blue ;
+    font-size:14px;
+    height:40px;
+    line-height: 40px;
+    background-color: #E2EDFF;
+    text-indent: 22px;
+    text-align: left;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.tempList{
+    .active{
+
+    }
+    li{
+        padding:12px 14px;
+        border-bottom: 1px solid rgba(240,240,240,1);
+        overflow: hidden;
+        /*溢出的部分隐藏*/
+        white-space: nowrap;
+        /*文本不换行*/
+        text-overflow: ellipsis;
+        .tem-right{
+            width:60px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+	        align-items: center;
+            p{
+                text-align: center;
+                margin:2px 0;
+            }
+            .tem-more{
+                color:@blue;
+                font-size:10px;
+                cursor: pointer;
+            }
+            .none-cercl{
+                display: inline-block;
+                width:14px;
+                height:14px;
+                border-radius: 50%;
+                cursor: pointer;
+                border:1px solid #959595;
+            }
+
+        }   
+        .tem-left{
+            flex:1;
+            overflow: hidden;
+            .tem-name-box{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .tem-title{
+                font-size:12px;
+                color:#333;
+                margin-bottom:5px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 100%;
+            }
+            .tem-user{
+                font-size:10px;
+                color:#959595;
+                margin-right:10px;
+            }
+        }
+    }
+}
+// .tempList {
+//     border-bottom: 4px solid #fafbfc;
+//     li {
+//         height: 40px;
+//         line-height: 40px;
+//         padding: 0 20px;
+//         color: #7f7f7f;
+//         cursor: pointer;
+//          overflow:hidden; /*溢出的部分隐藏*/
+//         white-space: nowrap; /*文本不换行*/
+//         text-overflow:ellipsis;/*ellipsis:文本溢出显示省略号（...）；clip:不显示省略标记（...），而是简单的裁切*/
+//     }
+//     .active {
+//         background-color: #f7f8fa;
+//         color: #555555;
+//     }
+// }
+.center-box {
+    position: relative;
+    background-color: #f8f9f9;
+    z-index: 100;
+    border: 1px solid #ccc;
+    // padding-bottom: 50px;
+    overflow: hidden;
+}
+.companyList2 {
+    padding: 10px;
+    li {
+        height: 50px;
+        // line-height: 30px;
+        width: 100%;
+        // text-align: center;
+        // background-color: #6e6eff;
+        color: #333333;
+        border-radius: 5px;
+        // margin: 10px auto;
+        cursor: pointer;
+        position: relative;
+        padding:5px;
+        box-sizing: border-box;
+        border:1px solid #fff;
+        margin-bottom:10px;
+        
+        .user-box{
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            opacity: 0.2;
+            z-index: 1;
+            border-radius: 5px;
+        }
+        .user-sanjiao{
+            position: absolute;
+            right:0;
+            bottom: 0;
+            border-bottom: 20px solid #E8E8E8 ;
+            border-left: 20px solid transparent;
+            color:#fff;
+            z-index:10
+        }
+        
+        .user-sanjiao-active{
+            border-bottom: 20px solid @blue;
+            border-left: 20px solid transparent;
+        }
+        .usergou{
+            position: absolute;
+            right:0px;
+            bottom:0px;
+            color:#fff;
+            z-index:11;
+            font-size:10px;
+        }
+        .userlds{
+            position: relative;
+            z-index: 4;
+            font-size:12px;
+        }
+        .userarea{
+            font-size:10px;
+            color:#959595;
+            margin-top:3px;
+            .signnum{
+                display:inline-block;
+                margin-right:5px;
+            }
+        }
+        .usertip{
+            display: inline-block;
+            width:2px;
+            height:10px;
+        }
+        // .comi {
+        //     position: absolute;
+        //     right: -30px;
+        //     top: 5px;
+        //     font-size: 20px;
+        // }
+    }
+    .comopci{
+        border:1px solid @blue;
+    }
+}
+.modulebox{
+
+    flex-wrap: wrap;
+    
+}
+.obj-licont {
+        
+    border-radius: 1px;
+    margin:10px;
+    height:80px;
+    
+    cursor: pointer;
+    
+    .modulname{
+        font-size:12px;
+        margin-top:10px;
+        text-align: center;
+        color:#333;
+    }
+   
+}
+.pdfboxtop{
+    height:100%;
+    margin:0 auto;
+    width:100%;
+}
+.modulimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:56px;
+    height:56px;
+    border: 1px solid rgba(234,234,234,1);
+    cursor:move;
+}
+.pre-view-collapse{
+    border-top:none;
+    .el-collapse-item__header{
+        height:32px;
+    }
+    .el-collapse-item__content{
+        padding-bottom: 0;
+    }
+}
+.fu-li{
+    height:34px;
+    padding:0 10px;
+    .fu-name{
+        font-size:12px;
+        color:#333;
+        flex:1;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space: nowrap;
+        text-align: left;
+    }
+    .fu-size{
+        font-size:12px;
+        color: #959595;
+        width:60px;
+        .el-icon-download{
+            display: none;
+        }
+        &:hover{
+            .real-size{
+                display: none;
+            }
+            .el-icon-download{
+                display: inline-block;
+            }
+        }
+    }
+}
+.pre-view-box{
+    overflow: hidden;
+}
+.pre-view-bottom-box{
+    // height:240px ;
+    padding-top:10px;
+    
+    .pre-view-bottom-title{
+        font-weight:600;
+        width:50px;
+    }
+    .pre-view-bottom-down{
+        font-size: 12px;
+        color: #1257FF;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 18px;
+        font-weight: 400;
+        // margin-left:10px;
+        flex:1;
+    }
+    .pre-view-bottom-num{
+        width:92px;
+        color: #959595;
+    }
+}
+.pdf-scroll{
+    // overflow-y: scroll;
+}
+.rightbox{
+    overflow-y:auto;
+}
+
+.rightbox-title{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.right-box-info{
+    padding-bottom: 10px;
+    border-bottom:1px solid #F0F0F0;
+    .flex{
+       margin:10px 0;
+    }
+    .info-left{
+        font-size: 12px;
+        color: #959595;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 18px;
+        font-weight: 400;
+        display: inline-block;
+        width:60px;
+    
+    }
+    .info-right{
+        flex:1;
+        font-size: 12px;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 18px;
+        font-weight: 400;
+    }
+}
+.sign-timeline{
+    margin-top:10px;
+    .el-timeline-item__node--normal{
+        left: 1px;
+        width: 7px;
+        height: 7px;
+    }
+}
+
+.sign-img-box, .seal-img-box{
+    .el-carousel__indicators{
+        display: none;
+    }
+}
+.white-sign{
+    background: #FFFFFF;
+    border: 1px solid rgba(221,224,231,1);
+    border-radius: 4px;
+    height:86px;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .white-tip{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+}
+.sign-way-title{
+    height:40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.re-white{
+    color:#1257FF ;
+    cursor:pointer;
+}
+.sign-img-box{
+    .all{
+        color:#7C7C7C ;
+    }
+
+}
+.asign-contract {
+    width: 140px;
+    height: 140px;
+    display: block;
+    padding:15px;
+    cursor:pointer;
+}
+.rightbox .signboximg{
+
+    .el-carousel__arrow{
+        background-color: #f5f5f9;
+       
+        text-align:left;
+        color:#C9C9C9;
+    }
+    .el-carousel__arrow--left{
+        left:-15px;
+        text-indent:8px;
+    }
+    .el-carousel__arrow--right{
+        right:-15px;
+        text-indent:3px;
+    }
+}
+.dargtipbox {
+    position: relative;
+    &:hover .dragtip{
+        display: block;
+    }
+
+}
+.dragtip{
+    display: none;
+    position:absolute;
+    bottom:0;left:0px;
+    // padding:4px;
+    // border-radius:5px;
+    background-color: #000;
+    opacity: .5;
+    color:#fff;
+    height: 30px;
+    line-height: 30px;
+    width:100%;
+    text-align: center;
+    z-index: 500;
+}
+.date-info{
+     width:214px;
+  height:32px;
+  text-indent: 20px;
+  line-height: 32px;
+  background: #FFFFFF;
+  border: 1px solid rgba(221,224,231,1);
+  border-radius: 4px;
+  
+}
+.none-padding{
+    .el-dialog__body{
+        padding: 10px 20px
+    }
+}
+.error-box{
+    .error-content{
+        font-size:12px;
+        color:#7F7F7F;
+        margin-right:10px;
+        display: inline-block;
+    }
+    .error-title{
+        font-size:13px;
+        margin:10px 0;
+        display: flex;
+        align-items: center;
+        .tiph{
+            display: inline-block;
+            width:2px;
+            height:12px;
+            background-color:#0079fe;
+            margin-right:5px;
+        }
+    }
+}
+.element-dialog{
+    .el-dialog__header{
+        display: none;
+    }
+    .el-dialog__body{
+        padding:0;
+        height:100%;
+    }
+     
+}
